@@ -1,0 +1,140 @@
+/*****BASE STYLES*****/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*****GRID*****/
+
+.full-width {
+    width: 100%;
+    margin: 0, auto;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 33.33%;
+    float: left;
+}
+
+/*****HEADER*****/
+
+.container{
+    padding: 0 20px 0 20px;
+    width:1200px;
+}
+
+.container h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    font-size: 30px;
+    font-weight:800;
+    float:left;
+    padding: 38px 0;
+}
+
+.container h1 span{
+    color: #77a466;
+}
+
+nav {
+    float: right; 
+    text-align: right;
+    padding: 46px 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight:800;
+    color: #77a466;
+    padding: 0 10px 0 10px;
+}
+
+
+/*****MAIN*****/
+#top-section{
+    margin: 0 auto;
+    padding: 36px 0 36px 0;
+}
+
+#top-section .full-width img{
+    width:1200px;
+
+}
+
+#top-section h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    font-size: 18px;
+    word-spacing: 2px;
+    font-weight:800;
+    color: #77a466;
+}
+
+#top-section p{
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    line-height: 30px;
+    width:1200px;
+}
+
+#bottom-section .third-width h4{
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    font-size: 12px;
+    font-weight:800;
+    padding: 0 30px;
+}
+
+#bottom-section .third-width .menu li{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:none;
+    line-height: 200%;
+    font-size: 16px;
+    font-weight:800;
+    color: #77a466;
+    display: inline-block;
+    text-align:left;
+}
+
+#bottom-section .third-width .reviews{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:none;
+    line-height: 150%;
+    font-size: 16px;
+    font-weight:600;
+    padding: 0 30px;
+}
+
+#bottom-section .third-width #middle{
+    border-left: 2px solid #dedbdc;
+    border-right: 2px solid#dedbdc;
+}
+
+#bottom-section .third-width .address{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:none;
+    line-height: 150%;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight:600;
+}
+
+#bottom-section .third-width h4 p ul{
+    height: auto;
+    width:400px;
+}
+
+#bottom-section{
+    border-top: 2px solid #dedbdc;
+}
